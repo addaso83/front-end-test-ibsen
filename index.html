@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Punto de Encuentro</title>
+</head>
+<body> 
+<div  class="wrapper container pt-3">
+ <div id="main" class="container-fluid">
+    <div  class="header">
+        <div class="row">
+            <div class="col-10">
+                <h1>Punto de Encuentro Panam&aacute;</h1>
+            </div>
+            <div class="col-2 my-4">
+                <a href="#" class="float-right text-init-session">Iniciar Sesi&oacute;n</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="search">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+              <label for="lstCategory">Categor&iacute;a</label>
+              <select id="lstCategory" class="form-select">
+                  <option value="">Seleccionar</option>
+                  <option value="1">Motor</option>
+              </select>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+                <label for="txtTitle">T&iacute;tulo</label>
+                <input type="text" id="txtTitle" class="form-control">
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                <label for="txDescription">Descripci&oacute;n</label>
+                <input type="text" id="txDescription" class="form-control">
+              </div>
+              <div class="col-md-2 col-lg-2 my-4 col-sm-12 col-xs-12">
+                <button type="button" class="btn btn-primary">Buscar</button>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+    <table class="table table-border table-condesed table-hover table-responsive">
+      <thead>
+       <tr>
+           <th>T&iacute;tulo</th>
+           <th>Descripci&oacute;n Corta</th>
+           <th>Publicado  por</th>
+           <th>Fecha Publicaci&oacute;n</th>
+           <th></th>
+       </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    </div>
+    <div class="category-content">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <div class="card">
+                      <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+                      MOTOR
+                      <div class="card-block">
+                        <div class="card-body">
+                          <p class="card-title text-center">
+                            <small>
+                               
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-6 text-center">
+                <div class="card">
+                    <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+                    INMOBILIARIO
+                    <div class="card-block">
+                      <div class="card-body">
+                        <p class="card-title text-center">
+                          <small>
+                             
+                          </small>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+         </div>
+
+         <div class="row">
+            <div class="col-6 text-center">
+                <div class="card">
+                  <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+                  EMPLEOS
+                  <div class="card-block">
+                    <div class="card-body">
+                      <p class="card-title text-center">
+                        <small>
+                           
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="col-6 text-center">
+            <div class="card">
+                <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+                FORMACI&Oacute;N Y LIBROS
+                <div class="card-block">
+                  <div class="card-body">
+                    <p class="card-title text-center">
+                      <small>
+                         
+                      </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+         </div>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center">
+                <div class="card">
+                  <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+                  SERVICIOS
+                  <div class="card-block">
+                    <div class="card-body">
+                      <p class="card-title text-center">
+                        <small>
+                           
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="col-6 text-center">
+            <div class="card">
+                <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+                NEGOCIOS
+                <div class="card-block">
+                  <div class="card-body">
+                    <p class="card-title text-center">
+                      <small>
+                         
+                      </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+      </div>
+     </div>
+
+     <div class="row">
+        <div class="col-6 text-center">
+            <div class="card">
+              <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+              INFORM&Aacute;TICA
+              <div class="card-block">
+                <div class="card-body">
+                  <p class="card-title text-center">
+                    <small>
+                       
+                    </small>
+                  </p>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="col-6 text-center">
+        <div class="card">
+            <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+            IMAGEN Y SONIDO
+            <div class="card-block">
+              <div class="card-body">
+                <p class="card-title text-center">
+                  <small>
+                     
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+  </div>
+ </div>
+
+ <div class="row">
+    <div class="col-6 text-center">
+        <div class="card">
+          <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+          M&Oacute;VILES Y TELFON&Iacute;A
+          <div class="card-block">
+            <div class="card-body">
+              <p class="card-title text-center">
+                <small>
+                   
+                </small>
+              </p>
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="col-6 text-center">
+    <div class="card">
+        <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+     JUEGOS
+        <div class="card-block">
+          <div class="card-body">
+            <p class="card-title text-center">
+              <small>
+                 
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-6 text-center">
+        <div class="card">
+          <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+          CASA Y JARD&Iacute;N
+          <div class="card-block">
+            <div class="card-body">
+              <p class="card-title text-center">
+                <small>
+                   
+                </small>
+              </p>
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="col-6 text-center">
+    <div class="card">
+        <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+        MODA Y COMPLEMENTOS
+        <div class="card-block">
+          <div class="card-body">
+            <p class="card-title text-center">
+              <small>
+                 
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-6 text-center">
+        <div class="card">
+          <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+          BEB&Eacute;S
+          <div class="card-block">
+            <div class="card-body">
+              <p class="card-title text-center">
+                <small>
+                   
+                </small>
+              </p>
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="col-6 text-center">
+    <div class="card">
+        <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+        AFICIONES Y OCIO
+        <div class="card-block">
+          <div class="card-body">
+            <p class="card-title text-center">
+              <small>
+                 
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+<div class="row">
+    <div class="col-6 text-center">
+        <div class="card">
+          <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+          DEPORTES Y N&Aacute;UTICA
+          <div class="card-block">
+            <div class="card-body">
+              <p class="card-title text-center">
+                <small>
+                   
+                </small>
+              </p>
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="col-6 text-center">
+    <div class="card">
+        <img class="card-img-top img-respo-img rounded-circle" src="" alt=""> 
+        MASCOTAS
+        <div class="card-block">
+          <div class="card-body">
+            <p class="card-title text-center">
+              <small>
+                 
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+<footer class="main-footer">
+    <div class="float-right d-none d-sm-inline">
+        <b>Versi&oacute;n</b> 1.0.0
+    </div>
+    <strong>Copyright &copy; 2020 Ibsen A. P&eacute;rez J. <a href="#">Punto de Encuentro Panam&aacute; S.A.</a>.</strong> Todos los derechos reservados.
+  </footer>
+</body>
+</html>
